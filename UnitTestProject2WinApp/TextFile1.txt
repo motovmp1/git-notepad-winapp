@@ -10,3 +10,18 @@ https://github.com/motovmp1/git-notepad-winapp.git
 
 
 "C:\Users\User01\source\repos\UnitTestProject2WinApp\UnitTestProject2WinApp\bin\Debug\UnitTestProject2WinApp.dll"
+
+
+
+inpect elements
+"C:\Program Files (x86)\Windows Kits\10\bin\10.0.19041.0\x64\inspect.exe"
+
+
+
+winappdriver
+"C:\Program Files (x86)\Windows Application Driver\WinAppDriver.exe"
+
+
+video serie winappdriver
+https://www.youtube.com/watch?v=AEF_Vkj06rg&list=UUmQRa3pWM9zsB474URz8ESg&index=3
+

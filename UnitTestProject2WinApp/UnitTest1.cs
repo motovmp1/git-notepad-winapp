@@ -13,21 +13,20 @@ namespace UnitTestProject2WinApp
         [TestMethod]
         public void TestMethod1()
         {
-            WindowsDriver<WindowsElement> driver = null;
             AppiumOptions appOptions = new AppiumOptions();
-            appOptions.AddAdditionalCapability("app", "Notepad");
+            appOptions.AddAdditionalCapability("app", @"C:\Windows\System32\notepad.exe");
 
-            driver = new WindowsDriver<WindowsElement>(new Uri("http://127.0.0.1:4723"), appOptions);
+            WindowsDriver<WindowsElement> Driver = new WindowsDriver<WindowsElement>(new Uri("http://127.0.0.1:4723"), appOptions);
 
 
             Thread.Sleep(2000);
-            driver.FindElementByClassName("Edit").SendKeys("Eliza");
+            Driver.FindElementByClassName("Edit").SendKeys("Eliza");
             Thread.Sleep(2000);
-            driver.FindElementByName("File").Click();
+            Driver.FindElementByName("File").Click();
             Thread.Sleep(2000);
-            driver.FindElementByName("Close").Click();
+            Driver.FindElementByName("Close").Click();
             Thread.Sleep(2000);
-            driver.FindElementByName("Don't Save").Click();
+            Driver.FindElementByName("Don't Save").Click();
 
         }
     }
