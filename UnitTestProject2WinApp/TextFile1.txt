@@ -1,1 +1,12 @@
-﻿
+﻿https://www.youtube.com/watch?v=yEa_Xo4yfHY
+
+git hub para winappdrver 
+
+
+git folder
+C:\Users\User01\source\repos\UnitTestProject2WinApp
+
+https://github.com/motovmp1/git-notepad-winapp.git
+
+
+"C:\Users\User01\source\repos\UnitTestProject2WinApp\UnitTestProject2WinApp\bin\Debug\UnitTestProject2WinApp.dll"
